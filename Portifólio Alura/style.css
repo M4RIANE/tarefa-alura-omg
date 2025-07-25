@@ -1,0 +1,25 @@
+@import url(fontes/Rock_3D.zip);
+
+:root {
+    --cor-principal: #8f3b3b;
+    --cor-secundaria: #583232;
+    --cor-destaque: #C92BFC;
+}
+
+body {
+        font-family: "Rock 3D", system-ui;
+        font-weight: 400;
+        font-style:"badge bg-secondary" normal, white }
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
